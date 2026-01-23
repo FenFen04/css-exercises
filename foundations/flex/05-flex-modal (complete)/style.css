@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+
 html, body {
   height: 100%;
 }
@@ -66,4 +68,23 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* Answer */
+.modal {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.text {
+    margin-bottom: 16px;
 }
